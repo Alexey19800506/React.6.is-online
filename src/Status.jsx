@@ -1,6 +1,6 @@
 import React from 'react';
 import Online from './Online';
-import Ofline from './Ofline';
+import Offline from './Offline';
 
 class Status extends React.Component {
   constructor(props) {
@@ -16,7 +16,7 @@ class Status extends React.Component {
          {this.state.isOnline ? (
             <Online/>
          ) : (
-            <Ofline/>
+            <Offline/>
          )}         
         </>
          

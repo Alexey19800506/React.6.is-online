@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Ofline = props => {
+const Offline = props => {
    
         return (
             <div className="status">
@@ -10,4 +10,4 @@ const Ofline = props => {
           );
     }
 
-export default Ofline;
+export default Offline;
